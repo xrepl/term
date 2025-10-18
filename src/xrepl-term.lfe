@@ -190,7 +190,7 @@
                      (`#(ok ,host) host)
                      (_ "localhost")))
          ;; Simple URL encoding for path
-         (encoded-path (http_uri:encode path-str)))
+         (encoded-path (uri_string:quote path-str)))
     (io:format "\e]7;file://~s~s\a" (list hostname encoded-path)))
   'ok)
 
