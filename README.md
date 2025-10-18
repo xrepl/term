@@ -72,7 +72,7 @@ Apache-2.0
 [gh-actions]: https://github.com/xrepl/term/actions/workflows/cicd.yml
 [lfe]: https://github.com/lfe/lfe
 [lfe-badge]: https://img.shields.io/badge/lfe-2.2-blue.svg
-[erlang-badge]: https://img.shields.io/badge/erlang-24%20to%2028-blue.svg
+[erlang-badge]: https://img.shields.io/badge/erlang-25%20to%2028-blue.svg
 [version]: https://github.com/xrepl/term/blob/main/.github/workflows/cicd.yml
 [github-tags]: https://github.com/xrepl/term/tags
 [github-tags-badge]: https://img.shields.io/github/tag/lfe/xrepl.svg
