@@ -1,0 +1,11 @@
+{application, xrepl_term,
+ [{description, "A modern terminal control library for LFE"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications, [kernel, stdlib]},
+  {env, []},
+  {modules, []},
+  {licenses, ["Apache-2.0"]},
+  {links, [{"GitHub", "https://github.com/xrepl/term"}]},
+  {exclude_files, ["priv/.DS_Store", "priv/images/*"]}
+ ]}.
