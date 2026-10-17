@@ -1,0 +1,8 @@
+Replace deprecated http_uri:encode with uri_string:quote
+
+The http_uri module was deprecated in OTP 23. Update set-cwd/1 to use
+the modern uri_string:quote/1 for URL encoding paths in OSC 7 sequences.
+
+Changes:
+- src/xrepl-term.lfe: Use uri_string:quote/1 in set-cwd/1
+- docs/design/xrepl-term-impl.md: Update documentation to match
