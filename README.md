@@ -60,6 +60,14 @@ Add to your `rebar.config`:
 
 See [examples/](examples/) for more usage patterns.
 
+## Planning
+
+Project planning and the historical implementation guide live on the orphan
+[`planning` branch](https://github.com/xrepl/term/tree/planning), under
+[`project01-mvp`](https://github.com/xrepl/term/blob/planning/project01-mvp/project-plan.md).
+The local planning worktree is `.worktrees/planning`. Start with its `README.md`
+and project plan; historical implementation claims remain separate from acceptance.
+
 ## License
 
 Apache-2.0
